@@ -1,6 +1,6 @@
 .wr{
     width: 100%!important;
-    height: 100vh!important;
+    height: 98vh!important;
 }
 
 .head{
@@ -23,7 +23,7 @@
 
     height: 8.5vh;
 
-
+    left: 70px;
 
     z-index: 1;
 }
@@ -46,4 +46,119 @@
     top: 1.5%;
 
     left: 80%;
+}
+
+#stripes{
+    position: absolute;
+    height: 8vh;
+    z-index: 2;
+    cursor: pointer;
+
+    left: 10px;
+}
+
+#menu{
+    position: absolute;
+    background-color: white;
+
+    top: 0;
+
+    transition: 0.4s;
+
+    width: 300px;
+    height: 100vh;
+    z-index: 2;
+    left: -300px;
+}
+
+.line1{
+    position: absolute;
+    background-color: rgb(109, 109, 109);
+    width: 100%;
+
+    top: 15%;
+    height: 1px;
+}
+.line2{
+    position: absolute;
+    background-color: rgb(109, 109, 109);
+    width: 100%;
+
+    top: 21%;
+    height: 1px;
+}
+
+.line3{
+    position: absolute;
+    background-color: rgb(109, 109, 109);
+    width: 100%;
+
+    top: 48%;
+    height: 1px;
+}
+.line4{
+    position: absolute;
+    background-color: rgb(109, 109, 109);
+    width: 100%;
+
+    top: 54%;
+    height: 1px;
+}
+
+.history{
+    position: absolute;
+
+    font-size: 4.3vh;
+
+    text-decoration: none;
+
+    color: black;
+
+    top: 24%;
+    left: 26px;
+}
+
+.certification{
+    position: absolute;
+
+    font-size: 4.3vh;
+
+    text-decoration: none;
+
+    top: 31%;
+    left: 26px;
+
+    color: black;
+}
+
+.products{
+    position: absolute;
+
+    font-size: 4.3vh;
+
+    text-decoration: none;
+
+    top: 38%;
+    left: 26px;
+
+    color: black;
+}
+
+.logo1{
+    position: absolute;
+
+    top: 4%;
+    left: 25px;
+}
+
+#cross{
+    position: absolute;
+    
+    height: 4vh;
+
+    top: 5%;
+
+    left: 250px;
+
+    cursor: pointer;
 }
