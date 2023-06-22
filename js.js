@@ -8,4 +8,3 @@
 // function close(){
 //     document.getElementById('menu').style.left = -300 + 'px';
 // }
-
