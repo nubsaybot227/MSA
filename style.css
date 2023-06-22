@@ -1,7 +1,7 @@
-.wr{
+/* .wr{
     width: 100%!important;
     height: 98vh!important;
-}
+} */
 
 .head{
     position: absolute;
@@ -18,44 +18,14 @@
     opacity: 0.7;
 }
 
-.logo{
-    position: absolute;
-
-    height: 8.5vh;
-
-    left: 70px;
-
-    z-index: 1;
-}
-
-@media (max-width: 660px){
+/* @media (max-width: 660px){
     .wr{
         width: 660px!important;
         height: 94vh!important;
     }
 
-}
+} */
 
-.telephon{
-    position: absolute;
-
-    z-index: 1;
-
-    height: 6vh;
-
-    top: 1.5%;
-
-    left: 80%;
-}
-
-#stripes{
-    position: absolute;
-    height: 8vh;
-    z-index: 2;
-    cursor: pointer;
-
-    left: 10px;
-}
 
 #menu{
     position: absolute;
@@ -151,14 +121,3 @@
     left: 25px;
 }
 
-#cross{
-    position: absolute;
-    
-    height: 4vh;
-
-    top: 5%;
-
-    left: 250px;
-
-    cursor: pointer;
-}
