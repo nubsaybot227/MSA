@@ -7,10 +7,11 @@ body{
     background-color: rgb(255, 255, 255);
     margin: 0;
 }
+body::-webkit-scrollbar { width: 0 !important }
 
 .head{
     position: absolute;
-    top: 0;
+    top: 0; 
     width: 100%;
     height:11vh;
 
@@ -34,12 +35,10 @@ body{
 
 
 #menu-l{
-    position: absolute;
+    position: fixed;
     background-color: rgb(247, 247, 247);
 
     top: 0;
-
-
 
     width: 19vw;
     height: 100vh;
@@ -50,7 +49,7 @@ body{
 
 }
 #menu-r{
-    position: absolute;
+    position: fixed;
     background-color: rgb(247, 247, 247);
 
     top: 0;
@@ -62,8 +61,6 @@ body{
     z-index: 2;
 
     left: 100%;
-    /* Rectangle 4 */
-
 
     box-shadow: -25px 0px 7px rgba(140, 140, 140, 0.01), -16px 0px 6px rgba(140, 140, 140, 0.05), -9px 0px 5px rgba(140, 140, 140, 0.18), -4px 0px 4px rgba(140, 140, 140, 0.3), -1px 0px 2px rgba(140, 140, 140, 0.34), 0px 0px 0px rgba(140, 140, 140, 0.35);
 
@@ -185,7 +182,7 @@ body{
     width: 6.1vw;
 }
 
-.btn{
+.btnn{
     box-sizing: border-box;
 
     position: absolute;
@@ -215,7 +212,7 @@ body{
 
     transform: translate(-50%,-50%);
 
-    top: 47%;
+    top: 41%;
     left: 50%;
 
     width: 15vw;
@@ -418,7 +415,7 @@ body{
     justify-content: center;
 }
 
-.btn:hover{background: #EEA572;}
+.btnn:hover{background: #EEA572;}
 .btn1:hover{background: #EEA572;}
 .btn2:hover{background: #EEA572;}
 .btn3:hover{background: #EEA572;}
@@ -446,7 +443,7 @@ body{
 
 
 
-    top: 34%;
+    top: 39%;
     left: 50%;
     transform: translate(-50%,-50%);
 
@@ -472,9 +469,7 @@ body{
 .text-2{
     position: absolute;
 
-    margin: 70px 0;
-
-    top: 55%;
+    top: 82.3%;
     left: 50%;
     transform: translate(-50%,-50%);
     width: 53vw;
@@ -494,3 +489,64 @@ body{
     background-image: url(img/half-section-3.png);
 
 }
+
+.text-3{
+    position: absolute;
+
+    top: 195.5%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 53vw;
+    height: 40%;
+}
+.powerhouse{
+    position: absolute;
+
+    font-size: 3.5vh;
+
+    top: -7%;
+    color: #313131;
+
+    border: 4px solid #EC6608;
+    border-radius: 17px;
+    background-image: url(img/half-section-1.png);
+}
+
+.carousel{
+    position: absolute!important;
+}
+
+.cc{
+    top: 140%;
+
+    left: 50%;
+
+    transform: translate(-50%,-50%);
+
+    width: 53.1vw;
+
+}
+
+
+.c-1{
+    width: 53.1vw;
+
+    height: 53vh;
+
+    border-radius: 17px;
+}
+.c-2{
+    width: 53.1vw;
+
+    height: 53vh;
+
+    border-radius: 17px;
+}
+.c-3{
+    width: 53.1vw;
+
+    height: 53vh;
+
+    border-radius: 17px;
+}
+

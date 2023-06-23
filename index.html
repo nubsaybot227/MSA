@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="img/logo.png" type="image/png">
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <title>MCA</title>
 </head>
 <body>
@@ -30,13 +30,49 @@
         
         <div class="text-2">
             <p class="electrical_units">
-                Мы разрабатываем проекты на базе газотурбинных электроагрегатов собственного производства с учетом всех
-                пожеланий заказчика. Каждому клиенту предоставляется бессрочная высококвалифицированная поддержка и
-                оперативная консультация. На каждом этапе производства происходит строгий контроль качества. 
-                Готовая продукция проходит заводские испытания на специальном нагрузочном 
-                стенде, с последующим получением протокола о соответствии заявленным характеристикам.
+                Мы разрабатываем проекты на базе газотурбинных электроагрегатов <span class="turbo_generation">собственного производства</span> с учетом всех
+                пожеланий заказчика. <span class="turbo_generation">Каждому клиенту</span> предоставляется бессрочная высококвалифицированная поддержка и
+                оперативная консультация. На каждом этапе производства происходит <span class="turbo_generation">строгий контроль качества.</span> 
+                <span class="turbo_generation">Готовая продукция проходит заводские испытания на специальном нагрузочном 
+                    стенде</span>, с последующим получением протокола <span class="turbo_generation">о соответствии заявленным характеристикам.</span>
             </p>
         </div>
+
+        <div id="carouselExampleInterval" class="carousel slide cc" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="3000">
+                <img src="img/c-1.png" class="c-1" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="img/c-2.png" class="c-2" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/c-3.png" class="c-3" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+          <div class="text-3">
+            <p class="powerhouse">
+                Электростанции на базе микротурбинных установок применяются в качестве источников электро- и теплоснабжения 
+                в автономном режиме работы или в режиме работы параллельно с сетью. 
+                В конструкции ГТУ применятся только отечественная компонентная база, 
+                позволяя снизить стоимость технического обслуживания, обеспечивая надежность поставки оборудования и его 
+                эксплуатации вне зависимости от доступности импортных запчастей, расходных материалов и ГСМ, что особенно 
+                актуально в условиях нестабильной внешнеэкономической ситуации и необходимости импортозамещения, а также 
+                гарантирует достоверность прогнозирования и бюджетирования эксплуатационных расходов вне зависимости от 
+                кроскурсов мировых валют.
+            </p>
+        </div>
+
     </main>
 
     <menu>
@@ -49,7 +85,7 @@
     
             <div class="line3"></div>
             <div class="line4"></div>
-            <div class="btn"><a href="#" class="history">главная</a></div>
+            <div class="btnn"><a href="#" class="history">главная</a></div>
             <div class="btn1"><a href="#" class="history">история</a></div>
             <div class="btn2"><a href="#" class="history">производство</a></div>
             <div class="btn3"><a href="#" class="history">продукция</a></div>
@@ -72,7 +108,7 @@
     
 
 
-    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     <script src="js.js"></script>
 </body>
 </html>
