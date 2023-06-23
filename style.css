@@ -427,3 +427,70 @@ body{
 .btn6:hover{background: #EEA572;}
 .btn7:hover{background: #EEA572;}
 .btn8:hover{background: #EEA572;}
+
+.rallied_collective{
+    position: absolute;
+
+    font-size: 3.5vh;
+
+    top: -7%;
+    color: #313131;
+
+    border: 4px solid #EC6608;
+    border-radius: 17px;
+    background-image: url(img/half-section-1.png);
+
+}
+.text-1{
+    position: absolute;
+
+
+
+    top: 34%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    width: 53vw;
+    height: 40%;
+}
+
+.turbo_generation{
+    font-weight: bold;
+}
+
+.alignment{
+    position: absolute;
+
+
+
+    left: 2%;
+
+    width: 51vw;
+    height: 100%;
+}
+
+.text-2{
+    position: absolute;
+
+    margin: 70px 0;
+
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 53vw;
+    height: 40%;
+}
+
+.electrical_units{
+    position: absolute;
+
+    font-size: 3.5vh;
+
+    top: -7%;
+    color: #313131;
+
+    border: 4px solid #EC6608;
+    border-radius: 17px;
+    background-image: url(img/half-section-3.png);
+
+}
